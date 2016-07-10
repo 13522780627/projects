@@ -1,0 +1,18 @@
+define(["fn","init","exports"],function(fn,init,exports){
+	require("jquery");
+	$(".man").on("click",function(){
+		$(".xuanx").css({"display":"none"});
+		$(".xingzuo").css({"display":"block"});
+	})
+	$(".girl").on("click",function(){
+		$(".xuanx").css({"display":"none"});
+		$(".xingzuo").css({"display":"block"});
+	})
+	$(".xing").on("click",function(){
+		$(".xingzuo").css({"display":"none"});
+		$(".changjing1").css({"display":"block"});
+		idx=0;
+		fn.hua(".changjing1-1",".left",".right",".sss");
+	})
+	console.log("初始化选择完成")
+})

@@ -1,0 +1,508 @@
+@import url("reset.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+img {
+  max-width: 100%; }
+
+@-webkit-keyframes girl {
+  0% {
+    left: -25%;
+    top: 50%; }
+  33% {
+    left: 0;
+    top: 35%; }
+  66% {
+    left: 15%;
+    top: 30%; }
+  100% {
+    left: 30%;
+    top: 25%; } }
+@-webkit-keyframes jian {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(825%); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(850%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(825%); } }
+.main {
+  position: absolute; }
+
+.load {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .load h1 {
+    position: relative;
+    width: 70%;
+    height: 20%;
+    margin: 5% 15%; }
+    .load h1 .wan {
+      position: absolute;
+      left: 55%;
+      top: 45%;
+      width: 20%;
+      -webkit-animation-iteration-count: infinite; }
+  .load .girl {
+    width: 50%;
+    position: absolute;
+    -webkit-animation: girl 1.5s;
+    left: 30%;
+    top: 25%; }
+  .load .house {
+    position: absolute;
+    bottom: 0; }
+  .load .jian {
+    position: absolute;
+    width: 16%;
+    margin-left: -8%;
+    left: 50%;
+    -webkit-animation: jian 2s;
+    -webkit-animation-iteration-count: infinite; }
+
+.chao {
+  height: 100%;
+  width: 100%;
+  background: #ccc; }
+  .chao .chaotitle {
+    width: 100%;
+    height: 48px;
+    position: relative;
+    background: #37363B; }
+    .chao .chaotitle a {
+      text-decoration: none;
+      position: absolute;
+      left: 2%;
+      color: #fff;
+      line-height: 48px;
+      font-size: 20px; }
+    .chao .chaotitle h1 {
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      height: 48px;
+      line-height: 48px;
+      font-size: 25px; }
+    .chao .chaotitle span {
+      position: absolute;
+      right: 2%;
+      width: 20px;
+      top: 15px; }
+  .chao .chaomin {
+    height: 70%; }
+    .chao .chaomin p {
+      height: 18%;
+      margin-top: 2%; }
+      .chao .chaomin p img {
+        width: 70%;
+        margin: 0 2%; }
+      .chao .chaomin p .z1 {
+        float: left; }
+      .chao .chaomin p .y1 {
+        float: left;
+        -webkit-animation-delay: 0.5s; }
+      .chao .chaomin p .b1 {
+        float: left;
+        -webkit-animation-delay: 1s; }
+      .chao .chaomin p .x1 {
+        float: right;
+        -webkit-animation-delay: 1.5s; }
+      .chao .chaomin p .j1 {
+        float: left;
+        -webkit-animation-delay: 2s; }
+  .chao .jian2 {
+    position: absolute;
+    width: 16%;
+    margin-left: -8%;
+    left: 50%;
+    display: none;
+    -webkit-animation: jian 2s;
+    top: 30%;
+    -webkit-animation-iteration-count: infinite; }
+  .chao .chaofoot {
+    position: absolute;
+    bottom: 0; }
+
+.lu {
+  width: 100%;
+  height: 100%; }
+  .lu h1 {
+    width: 100%; }
+    .lu h1 img {
+      width: 80%;
+      margin: 10%; }
+  .lu div {
+    width: 100%; }
+    .lu div img {
+      width: 80%;
+      margin: 10%;
+      -webkit-animation-delay: 1s; }
+
+.lu2 {
+  width: 100%;
+  height: 100%; }
+  .lu2 .lu2map {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    position: relative; }
+    .lu2 .lu2map .shang {
+      position: absolute;
+      left: 39%;
+      top: 25%;
+      width: 18%;
+      -webkit-animation-delay: .5s; }
+    .lu2 .lu2map .xia {
+      position: absolute;
+      right: 37%;
+      bottom: 42%;
+      width: 15%;
+      -webkit-animation-delay: 1s; }
+    .lu2 .lu2map .zuo {
+      position: absolute;
+      right: 45%;
+      bottom: 47%;
+      width: 22%;
+      -webkit-animation-delay: 1.5s; }
+    .lu2 .lu2map .you {
+      position: absolute;
+      left: 50%;
+      top: 33%;
+      width: 22%;
+      -webkit-animation-delay: 2s; }
+    .lu2 .lu2map .qiz {
+      position: absolute;
+      right: 27%;
+      bottom: 57%;
+      width: 10%; }
+    .lu2 .lu2map .qiy {
+      position: absolute;
+      left: 30%;
+      bottom: 54%;
+      width: 10%; }
+    .lu2 .lu2map .qis {
+      position: absolute;
+      right: 43%;
+      bottom: 40%;
+      width: 5%; }
+    .lu2 .lu2map .qix {
+      position: absolute;
+      left: 48%;
+      top: 28%;
+      width: 5%; }
+    .lu2 .lu2map .girl2 {
+      position: absolute;
+      width: 20%;
+      top: 35%;
+      left: 50%;
+      margin-left: -10%;
+      -webkit-animation-delay: 2.5s; }
+    .lu2 .lu2map .stop1 {
+      position: absolute;
+      width: 30%;
+      top: 55%;
+      left: 50%;
+      margin-left: -15%;
+      -webkit-animation-delay: 2.5s; }
+  .lu2 p {
+    height: 10%;
+    margin-top: 3%;
+    width: 90%; }
+    .lu2 p ._yifan {
+      -webkit-animation-delay: 3s; }
+    .lu2 p ._jiao {
+      margin-left: 5%;
+      -webkit-animation-delay: 3.5s; }
+
+.lu3 {
+  width: 100%;
+  height: 100%; }
+  .lu3 .lu3map {
+    width: 100%;
+    height: 70%;
+    position: relative; }
+    .lu3 .lu3map .top {
+      position: absolute;
+      width: 3%;
+      top: 35%;
+      left: 54%;
+      -webkit-animation-delay: 0.5s; }
+    .lu3 .lu3map .bottom {
+      position: absolute;
+      width: 3%;
+      bottom: 48%;
+      left: 48%;
+      -webkit-animation-delay: 1s; }
+    .lu3 .lu3map .qi {
+      position: absolute;
+      width: 12%;
+      bottom: 40%;
+      left: 46%; }
+    .lu3 .lu3map .girl3 {
+      position: absolute;
+      width: 20%;
+      top: 35%;
+      left: 50%;
+      margin-left: -10%;
+      -webkit-animation-delay: 2s; }
+    .lu3 .lu3map .stop2 {
+      position: absolute;
+      width: 50%;
+      top: 55%;
+      left: 50%;
+      margin-left: -25%;
+      -webkit-animation-delay: 2s; }
+  .lu3 .baby2 {
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    font-size: 10px;
+    -webkit-animation-delay: 2.5s; }
+    .lu3 .baby2 span {
+      position: absolute;
+      left: 57%;
+      top: 57%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+    .lu3 .baby2 a {
+      position: absolute;
+      text-decoration: none;
+      left: 71%;
+      top: 57%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+  .lu3 .jiao3 {
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: relative;
+    -webkit-animation-delay: 3s; }
+    .lu3 .jiao3 span {
+      font-size: 10px;
+      position: absolute;
+      text-decoration: none;
+      left: 14%;
+      top: 67%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+
+.lu4 {
+  width: 100%;
+  height: 100%; }
+  .lu4 .lu4map {
+    position: relative;
+    height: 50%; }
+  .lu4 .girl4 {
+    position: absolute;
+    width: 24%;
+    right: 1%;
+    top: 25%;
+    -webkit-animation-delay: 1.5s; }
+  .lu4 .stop3 {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    margin-left: -30%;
+    top: 50%;
+    -webkit-animation-delay: 1.5s; }
+  .lu4 .wanl {
+    position: absolute;
+    width: 15%;
+    right: 5%;
+    top: 37%;
+    -webkit-animation-delay: .5s; }
+  .lu4 p {
+    height: 10%;
+    margin-top: 8%;
+    width: 90%;
+    margin-left: 5%; }
+  .lu4 .zhong2 {
+    position: relative;
+    -webkit-animation-delay: 2s; }
+    .lu4 .zhong2 span {
+      position: absolute;
+      left: 52%;
+      top: 58%;
+      font-size: 10%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+    .lu4 .zhong2 a {
+      position: absolute;
+      text-decoration: none;
+      left: 77%;
+      top: 58%;
+      font-size: 10%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+  .lu4 ._jiao6 {
+    -webkit-animation-delay: 2.5s; }
+  .lu4 ._xiao6 {
+    -webkit-animation-delay: 3s; }
+
+.du {
+  width: 100%;
+  height: 100%; }
+  .du h1 {
+    width: 90%;
+    margin-left: 5%;
+    height: 30%;
+    position: relative;
+    margin-top: 10%; }
+  .du .kuai {
+    position: absolute;
+    left: 65%;
+    top: 38%;
+    width: 20%;
+    -webkit-animation-iteration-count: infinite; }
+  .du p {
+    width: 90%;
+    margin-left: 5%;
+    position: relative; }
+    .du p span {
+      position: absolute;
+      left: 62%;
+      top: 62%;
+      font-size: 10%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+  .du div {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%; }
+  .du .du_jian {
+    position: absolute;
+    width: 16%;
+    top: 40%;
+    left: 42%;
+    display: none;
+    -webkit-animation: jian 2s;
+    -webkit-animation-iteration-count: infinite; }
+
+.comein {
+  width: 100%;
+  height: 100%; }
+  .comein p {
+    height: 20%;
+    width: 90%;
+    margin-top: 15%;
+    margin-left: 5%;
+    position: relative; }
+    .comein p span {
+      position: absolute;
+      left: 56%;
+      top: 15%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+    .comein p .a1 {
+      position: absolute;
+      text-decoration: none;
+      left: 90%;
+      top: 15%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+    .comein p .a2 {
+      position: absolute;
+      text-decoration: none;
+      left: 35%;
+      top: 31%;
+      color: #F9EC00;
+      font-weight: bold;
+      -webkit-animation-iteration-count: infinite; }
+  .comein .btn {
+    height: 30%;
+    position: relative; }
+    .comein .btn .btn_1 {
+      position: absolute;
+      width: 30%;
+      top: 10%;
+      left: 50%;
+      margin-left: -10%; }
+    .comein .btn .hand {
+      position: absolute;
+      width: 20%;
+      top: 30%;
+      left: 58%;
+      margin-left: -10%;
+      -webkit-animation-iteration-count: infinite; }
+  .comein .house2 {
+    position: absolute;
+    bottom: 0; }
+
+.end {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .end .jiao_9 {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 10%; }
+  .end .endmap {
+    width: 90%;
+    height: 55%;
+    margin-left: 5%;
+    margin-top: 10%;
+    position: relative; }
+    .end .endmap .x {
+      position: absolute;
+      width: 10%;
+      top: -2%;
+      right: -2%;
+      z-index: 133; }
+    .end .endmap .y {
+      position: absolute;
+      width: 15%;
+      top: 13%;
+      left: 0;
+      z-index: 133; }
+    .end .endmap .y2 {
+      position: absolute;
+      width: 15%;
+      top: 69%;
+      left: 0;
+      z-index: 133; }
+    .end .endmap .s1 {
+      position: absolute;
+      width: 10%;
+      bottom: 4%;
+      left: 54%;
+      z-index: 133; }
+    .end .endmap .s2 {
+      position: absolute;
+      width: 10%;
+      bottom: 4%;
+      right: -2%;
+      z-index: 133; }
+  .end .yeye {
+    height: 10%;
+    width: 40%;
+    position: absolute;
+    left: 30%; }
+  .end .return {
+    width: 10%;
+    top: 80%;
+    position: absolute;
+    left: 10%;
+    z-index: 133; }
+  .end #canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 20; }
+
+/*# sourceMappingURL=style.css.map */

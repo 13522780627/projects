@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="./Swiper demo_files/swiper.min.css">
+	<script type="text/javascript" src="js/project/libs/require.js" defer async="true" data-main="js/project/index.js"></script>
+	<style type="text/css">
+		.left{
+			display:block;
+			width:30px;
+			height:30px;
+			position:absolute;
+			top:50%;
+			margin-top:-15px;
+			left:0;
+		}
+		.right{
+			display:block;
+			width:30px;
+			height:30px;
+			position:absolute;
+			top:50%;
+			margin-top:-15px;
+			right:0;
+		}
+		 /* .load,.changjing1,.xuanx,.xingzuo,.changjing2,.changjing3,.changjing4,.changjing5,.changjing2a,.changjing2b,.changjing2c,.changjing2d,.changjing3a,.changjing3b,.changjing3c,.changjing3d,.jie,.lose,.social1-2,.social2-1,.social2-2,.social3-1,.social3-2{
+		  								display:none;
+		  							} */
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="load">
+			<img src="img/baidb.png">
+			<p></p>
+			
+			<div class="r"><span class="run"></span></div>
+			<a href="#" class="num"></a>
+		</div>
+		<div class="xuanx">
+			<h1>
+				<img src="img/wei.png">
+			</h1>
+			<p>
+				<img src="img/wen.png">
+			</p>
+			<span>
+				<img src="img/kuo.png">
+			</span>
+			<h2>
+				<img src="img/xuan.png">
+			</h2>
+			<div class="day">
+				<div class="man" data-xing="nan">
+					<img src="img/man.png">			
+				</div>
+				<div class="girl" data-xing="nu">
+					<img src="img/girl.png">
+				</div>
+			</div>
+			<div class="ma">快来升级近距离社交技能！</div>
+		</div>
+		<div class="xingzuo">
+			<h1><img src="img/xuan2.png"></h1>
+			<div class="xing1">
+				<div data-val="baiyang" class="xing">
+					<img src="img/Img2_1.png">
+				</div>
+				<div data-val="jinniu" class="xing">
+					<img src="img/Img2_2.png">
+				</div>
+				<div data-val="shuangzi" class="xing">
+					<img src="img/Img2_3.png">
+				</div>
+			</div>
+			<div class="xing1">
+				<div data-val="juxie" class="xing">
+					<img src="img/Img2_4.png">
+				</div>
+				<div data-val="shizi" class="xing">
+					<img src="img/Img2_5.png">
+				</div>
+				<div data-val="chunu" class="xing">
+					<img src="img/Img2_6.png">
+				</div>
+			</div>
+			<div class="xing1">
+				<div data-val="tianping" class="xing">
+					<img src="img/Img2_7.png">
+				</div>
+				<div data-val="tianxie" class="xing">
+					<img src="img/Img2_8.png">
+				</div>
+				<div data-val="sheshou" class="xing">
+					<img src="img/Img2_9.png">
+				</div>
+			</div>
+			<div class="xing1">
+				<div data-val="moxie" class="xing">
+					<img src="img/Img2_10.png">
+				</div>
+				<div data-val="shuiping" class="xing">
+					<img src="img/Img2_11.png">
+				</div>
+				<div data-val="shuangyu" class="xing">
+					<img src="img/Img2_12.png">
+				</div>
+			</div>
+			<div class="on">点击您选择的星座，直接进入测试</div>
+		</div>
+		<div class="changjing1">
+			<div class="sss">
+				<div data-na="ai" class="changjing1-1" >
+					<h1>
+						<img src="img/yue.png">
+					</h1>
+					<p>
+						<img src="img/liao.png">
+					</p>
+				</div>
+				<div class="changjing1-1"  data-na="zhi">
+					<h1>
+						<img src="img/zhic.png">
+					</h1>
+					<p>
+						<img src="img/Img3_work.png">
+					</p>
+				</div>
+				<div class="changjing1-1" data-na="peng">
+					<h1>
+						<img src="img/peng.png">
+					</h1>
+					<p>
+						<img src="img/you.png">
+					</p>
+				</div>
+			</div>
+			<input type="button" id="btn">
+			<span class="left"><img src="img/left.png"></span>
+			<span  class="right"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing2">
+			<div class="ch2"><img src="img/aa.jpg"></div>
+			<div class="bbb">
+				<div class="changjing2-1" data-na="15" >
+					<img src="img/Img4_1_A.png">
+				</div>
+				<div class="changjing2-1"  data-na="25">
+					<img src="img/Img4_1_B.png">
+				</div>
+				<div class="changjing2-1" data-na="0">
+					<img src="img/Img4_1_C.png">
+				</div>
+
+			</div>
+			<input type="button" class="btn2">
+			<span class="left2"><img src="img/left.png"></span>
+			<span  class="right2"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing3">
+			<div class="ch3"><img src="img/lian.jpg"></div>
+			<div class="ccc">
+				<div class="changjing3-1" data-na="15" >
+					<img src="img/Img4_2_A.png">
+				</div>
+				<div class="changjing3-1"  data-na="25">
+					<img src="img/Img4_2_B.png">
+				</div>
+				<div class="changjing3-1" data-na="15">
+					<img src="img/Img4_2_C.png">
+				</div>
+				<div class="changjing3-1" data-na="15">
+					<img src="img/Img4_2_D.png">
+				</div>
+
+			</div>
+			<input type="button" class="btn3">
+			<span class="left3"><img src="img/left.png"></span>
+			<span  class="right3"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing4">
+			<div class="ch4"><img src="img/biao.jpg"></div>
+			<div class="ddd">
+				<div class="changjing4-1" data-na="15" >
+					<img src="img/Img4_3_A.png">
+				</div>
+				<div class="changjing4-1"  data-na="15">
+					<img src="img/Img4_3_B.png">
+				</div>
+				<div class="changjing4-1" data-na="25">
+					<img src="img/Img4_3_C.png">
+				</div>
+
+			</div>
+			<input type="button" class="btn4">
+			<span class="left4"><img src="img/left.png"></span>
+			<span  class="right4"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing5">
+			<div class="ch5"><img src="img/qin.jpg"></div>
+			<div class="eee">
+				<div class="changjing5-1" data-na="5" >
+					<img src="img/Img4_4_A.png">
+				</div>
+				<div class="changjing5-1"  data-na="25">
+					<img src="img/Img4_4_B.png">
+				</div>
+				<div class="changjing5-1" data-na="15">
+					<img src="img/Img4_4_C.png">
+				</div>
+
+			</div>
+			<input type="button" class="btn5">
+			<span class="left5"><img src="img/left.png"></span>
+			<span  class="right5"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing2a">
+			<div class="ch2a"><img src="img/p1.jpg"></div>
+			<div class="c2a">
+				<div class="changjing2a-1" data-na="5" >
+					<img src="img/Img6_1_A.png">
+				</div>
+				<div class="changjing2a-1"  data-na="10">
+					<img src="img/Img6_1_B.png">
+				</div>
+				<div class="changjing2a-1" data-na="15">
+					<img src="img/Img6_1_C.png">
+				</div>
+				<div class="changjing2a-1" data-na="25">
+					<img src="img/Img6_1_D.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn2a">
+			<span class="left2a"><img src="img/left.png"></span>
+			<span  class="right2a"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing2b">
+			<div class="ch2b"><img src="img/p2.jpg"></div>
+			<div class="c2b">
+				<div class="changjing2b-1" data-na="0" >
+					<img src="img/Img6_2_A.png">
+				</div>
+				<div class="changjing2b-1"  data-na="15">
+					<img src="img/Img6_2_B.png">
+				</div>
+				<div class="changjing2b-1" data-na="25">
+					<img src="img/Img6_2_C.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn2b">
+			<span class="left2b"><img src="img/left.png"></span>
+			<span  class="right2b"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing2c">
+			<div class="ch2c"><img src="img/p3.jpg"></div>
+			<div class="c2c">
+				<div class="changjing2c-1" data-na="15" >
+					<img src="img/Img6_3_A.png">
+				</div>
+				<div class="changjing2c-1"  data-na="25">
+					<img src="img/Img6_3_B.png">
+				</div>
+				<div class="changjing2c-1" data-na="0">
+					<img src="img/Img6_3_C.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn2c">
+			<span class="left2c"><img src="img/left.png"></span>
+			<span  class="right2c"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing2d">
+			<div class="ch2d"><img src="img/p4.jpg"></div>
+			<div class="c2d">
+				<div class="changjing2d-1" data-na="15" >
+					<img src="img/Img6_4_A.png">
+				</div>
+				<div class="changjing2d-1"  data-na="0">
+					<img src="img/Img6_4_B.png">
+				</div>
+				<div class="changjing2d-1" data-na="25">
+					<img src="img/Img6_4_C.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn2d">
+			<span class="left2d"><img src="img/left.png"></span>
+			<span  class="right2d"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing3a">
+			<div class="ch3a"><img src="img/z1.jpg"></div>
+			<div class="c3a">
+				<div class="changjing3a-1" data-na="15" >
+					<img src="img/Img5_1_A.png">
+				</div>
+				<div class="changjing3a-1"  data-na="25">
+					<img src="img/Img5_1_B.png">
+				</div>
+				<div class="changjing3a-1" data-na="15">
+					<img src="img/Img5_1_C.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn3a">
+			<span class="left3a"><img src="img/left.png"></span>
+			<span  class="right3a"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing3b">
+			<div class="ch3b"><img src="img/z2.jpg"></div>
+			<div class="c3b">
+				<div class="changjing3b-1" data-na="5" >
+					<img src="img/Img5_2_A.png">
+				</div>
+				<div class="changjing3b-1"  data-na="15">
+					<img src="img/Img5_2_B.png">
+				</div>
+				<div class="changjing3b-1" data-na="25">
+					<img src="img/Img5_2_C.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn3b">
+			<span class="left3b"><img src="img/left.png"></span>
+			<span  class="right3b"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing3c">
+			<div class="ch3c"><img src="img/z3.jpg"></div>
+			<div class="c3c">
+				<div class="changjing3c-1" data-na="0" >
+					<img src="img/Img5_3_A.png">
+				</div>
+				<div class="changjing3c-1"  data-na="15">
+					<img src="img/Img5_3_B.png">
+				</div>
+				<div class="changjing3c-1" data-na="20">
+					<img src="img/Img5_3_C.png">
+				</div>
+				<div class="changjing3c-1" data-na="25">
+					<img src="img/Img5_3_D.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn3c">
+			<span class="left3c"><img src="img/left.png"></span>
+			<span  class="right3c"><img src="img/right.png"></span>
+		</div>
+		<div class="changjing3d">
+			<div class="ch3d"><img src="img/z4.jpg"></div>
+			<div class="c3d">
+				<div class="changjing3d-1" data-na="15" >
+					<img src="img/Img6_4_A.png">
+				</div>
+				<div class="changjing3d-1"  data-na="25">
+					<img src="img/Img6_4_B.png">
+				</div>
+				<div class="changjing3d-1" data-na="0">
+					<img src="img/Img6_4_C.png">
+				</div>
+		
+			</div>
+			<input type="button" class="btn3d">
+			<span class="left3d"><img src="img/left.png"></span>
+			<span  class="right3d"><img src="img/right.png"></span>
+		</div>
+		<div class="jie" class="get">
+			<h1><img src="img/dh.png"></h1>
+			<p>你成功打败了<span class="sum"></span>%的人，<br>
+				在与别人的近距离交往时，你聪明体贴又自信满满,<br>
+				真是位不折不扣的微距社交达人，<br>
+				快向小伙伴们炫耀一下吧
+			</p>
+			<div class="img1"><img src="img/da.png"></div>
+			<div class="yes">
+				<div>
+					<a href="index.html"><input type="button" value="再测一次" class="begin1 begin"></a>
+				</div>
+				<div>
+					<input type="button" value="炫耀结果" class="show1">
+				</div>
+			</div>
+		</div>
+		<div class="lose" class="get">
+			<h1><img src="img/lose.png"></h1>
+			<p>你只打败了<span class="sum"></span>%的人，在与别人的近距离的交往中，你的社交技巧仍有较大的提升空间。对影响生活的因素（如皮肤感染等问题)的了解还略有不足。<br><br>
+				不用着急，百多邦为你准备了帮助提高社交和自信的“社交锦囊”，快点击获取“社交锦囊”吧
+			</p>
+			<div class="img2"><img src="img/loseb.png"></div>
+			<div class="yes">
+				<div>
+					<a href="index.html"><input type="button" value="再测一次" class="begin2 begin"></a>
+				</div>
+				<div>
+					<input type="button" value="获取社交锦囊" class="show2">
+				</div>
+			</div>
+		</div>
+		<div class="social1-1">
+			<img src="img/social1-1.jpg" class="s1">
+			<div class="cunzai">
+				<h1>
+					<img src="img/smubiao.png" class="mubiao">
+				</h1>
+				<img src="img/me_03.png" class="tu">
+				<div class="top">
+					<h2><img src="img/pifu.png"></h2>
+					<div></div>
+					<div></div>
+					<p>皮肤感染分为原发性感染和继发性感染</p>
+					<p>表现为疼痛，直接的皮肤损害则为<span>红，肿，化脓等</span></p>
+					<p>有时还可能出现<span>发烧</span>乏力等全身症状</p>
+				</div>
+				<div class="bottom">
+					<h2><img src="img/huli.png"></h2>
+					<div></div>
+					<div></div>
+					<img src="img/hu.png" class="hu">
+				</div>
+				<input type="button" value="分享微距社交目标">
+			</div>
+		</div>
+		<div class="social1-2">
+			<img src="img/social1-2.jpg" class="s2">
+			<div class="cunzai">
+				<h1>
+					<img src="img/smubiao.png" class="mubiao">
+				</h1>
+				<img src="img/kai_03.png" class="tu">
+				<div class="top">
+					<h2><img src="img/pifu.png"></h2>
+					<div></div>
+					<div></div>
+					<p>皮肤感染分为原发性感染和继发性感染</p>
+					<p>表现为疼痛，直接的皮肤损害则为<span>红，肿，化脓等</span></p>
+					<p>有时还可能出现<span>发烧</span>乏力等全身症状</p>
+				</div>
+				<div class="bottom">
+					<h2><img src="img/huli.png"></h2>
+					<div></div>
+					<div></div>
+					<img src="img/hu.png" class="hu">
+				</div>
+				<input type="button" value="分享微距社交目标">
+			</div>
+		</div>
+		<div class="social2-1">
+			<img src="img/social2-1.jpg" class="s3">
+			<div class="cunzai">
+				<h1>
+					<img src="img/smubiao.png" class="mubiao">
+				</h1>
+				<img src="img/tian_03.png" class="tu">
+				<div class="top">
+					<h2><img src="img/pifu.png"></h2>
+					<div></div>
+					<div></div>
+					<p>皮肤感染分为原发性感染和继发性感染</p>
+					<p>表现为疼痛，直接的皮肤损害则为<span>红，肿，化脓等</span></p>
+					<p>有时还可能出现<span>发烧</span>乏力等全身症状</p>
+				</div>
+				<div class="bottom">
+					<h2><img src="img/huli.png"></h2>
+					<div></div>
+					<div></div>
+					<img src="img/hu.png" class="hu">
+				</div>
+				<input type="button" value="分享微距社交目标">
+			</div>
+		</div>
+		<div class="social2-2">
+			<img src="img/social2-2.jpg" class="s4">
+			<div class="cunzai">
+				<h1>
+					<img src="img/smubiao.png" class="mubiao">
+				</h1>
+				<img src="img/zhu_03.png" class="tu">
+				<div class="top">
+					<h2><img src="img/pifu.png"></h2>
+					<div></div>
+					<div></div>
+					<p>皮肤感染分为原发性感染和继发性感染</p>
+					<p>表现为疼痛，直接的皮肤损害则为<span>红，肿，化脓等</span></p>
+					<p>有时还可能出现<span>发烧</span>乏力等全身症状</p>
+				</div>
+				<div class="bottom">
+					<h2><img src="img/huli.png"></h2>
+					<div></div>
+					<div></div>
+					<img src="img/hu.png" class="hu">
+				</div>
+				<input type="button" value="分享微距社交目标">
+			</div>
+		</div>
+		<div class="social3-1">
+			<img src="img/social3-1.jpg" class="s5">
+			<div class="cunzai">
+				<h1>
+					<img src="img/smubiao.png" class="mubiao">
+				</h1>
+				<img src="img/man_03.png" class="tu">
+				<div class="top">
+					<h2><img src="img/pifu.png"></h2>
+					<div></div>
+					<div></div>
+					<p>皮肤感染分为原发性感染和继发性感染</p>
+					<p>表现为疼痛，直接的皮肤损害则为<span>红，肿，化脓等</span></p>
+					<p>有时还可能出现<span>发烧</span>乏力等全身症状</p>
+				</div>
+				<div class="bottom">
+					<h2><img src="img/huli.png"></h2>
+					<div></div>
+					<div></div>
+					<img src="img/hu.png" class="hu">
+				</div>
+				<input type="button" value="分享微距社交目标">
+			</div>
+		</div>
+		<div class="social3-2">
+			<img src="img/social3-2.jpg" class="s6">
+			<div class="cunzai">
+				<h1>
+					<img src="img/smubiao.png" class="mubiao">
+				</h1>
+				<img src="img/cun_03.png" class="tu">
+				<div class="top">
+					<h2><img src="img/pifu.png"></h2>
+					<div></div>
+					<div></div>
+					<p>皮肤感染分为原发性感染和继发性感染</p>
+					<p>表现为疼痛，直接的皮肤损害则为<span>红，肿，化脓等</span></p>
+					<p>有时还可能出现<span>发烧</span>乏力等全身症状</p>
+				</div>
+				<div class="bottom">
+					<h2><img src="img/huli.png"></h2>
+					<div></div>
+					<div></div>
+					<img src="img/hu.png" class="hu">
+				</div>
+				<input type="button" value="分享微距社交目标">
+			</div>
+		</div>
+		
+	</div>
+</body>
+
+</html>

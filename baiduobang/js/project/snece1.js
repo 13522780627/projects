@@ -1,0 +1,29 @@
+define(["fn","snece1","exports"],function(fn,snece1,exports){
+	$(".btn2").on("click",function(){
+			sa+=$(".changjing2-1").eq(idx).data('na');
+			love1=$(".changjing2-1").eq(idx).data('na');
+			$(".changjing2").hide();
+			$(".changjing3").show();
+			fn.Up(".ch3",".changjing3");
+			idx=0;
+			fn.hua(".changjing3-1",".left3",".right3",".ccc")
+			
+		})
+		$(".btn3").on("click",function(){
+			sa+=$(".changjing3-1").eq(idx).data('na');
+			$(".changjing3").hide();
+			$(".changjing4").show();
+			fn.Up(".ch4",".changjing4");
+			idx=0;
+			fn.hua(".changjing4-1",".left4",".right4",".ddd")
+		})
+		$(".btn4").on("click",function(){
+			sa+=$(".changjing4-1").eq(idx).data('na');
+			love2=$(".changjing4-1").eq(idx).data('na');
+			$(".changjing4").hide();
+			$(".changjing5").show();
+			fn.Up(".ch5",".changjing5");
+			idx=0;
+			fn.hua(".changjing5-1",".left5",".right5",".eee")
+		})
+})

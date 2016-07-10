@@ -1,0 +1,1309 @@
+@import url("reset.css");
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: url(../img/bg.gif) repeat; }
+
+img {
+  max-width: 100%; }
+
+.load {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.gif) repeat;
+  position: relative; }
+  .load img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 300px; }
+  .load p {
+    width: 200px;
+    height: 10px;
+    border: 1px solid green;
+    position: absolute;
+    border-radius: 4px;
+    top: 300px;
+    left: 50%;
+    margin-left: -100px; }
+  .load .r {
+    width: 200px;
+    height: 10px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -100px; }
+    .load .r span {
+      display: block;
+      height: 10px;
+      border: 1px solid green;
+      position: absolute;
+      border-radius: 4px;
+      background: green;
+      top: 0px;
+      left: 0;
+      width: 0; }
+  .load a {
+    display: block;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none; }
+
+.xuanx {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .xuanx h1 {
+    height: 60px;
+    width: 80%;
+    margin-top: 30px;
+    padding-left: 10%; }
+    .xuanx h1 img {
+      display: block;
+      height: 80px;
+      width: 100%; }
+  .xuanx p {
+    height: 50px;
+    width: 60%;
+    padding-left: 20%; }
+    .xuanx p img {
+      display: block;
+      width: 100%; }
+  .xuanx span {
+    height: 40px;
+    display: block;
+    width: 80%;
+    padding-left: 10%; }
+    .xuanx span img {
+      display: block;
+      width: 100%; }
+  .xuanx h2 {
+    height: 50px;
+    width: 50%;
+    padding-left: 25%; }
+    .xuanx h2 img {
+      display: block;
+      width: 100%; }
+  .xuanx .day {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal; }
+  .xuanx .man {
+    -webkit-box-flex: 1; }
+    .xuanx .man img {
+      display: block;
+      width: 100px;
+      margin: auto; }
+  .xuanx .girl {
+    -webkit-box-flex: 1; }
+    .xuanx .girl img {
+      display: block;
+      width: 100px;
+      margin: auto; }
+  .xuanx .ma {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    color: green;
+    font-weight: bold; }
+
+.xingzuo {
+  background: url(../img/bg.gif) repeat;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .xingzuo h1 {
+    width: 60%;
+    margin-left: 20%;
+    height: 50px;
+    padding-top: 50px; }
+    .xingzuo h1 img {
+      display: block;
+      width: 100%; }
+  .xingzuo .xing1 {
+    height: 70px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal; }
+    .xingzuo .xing1 div {
+      -webkit-box-flex: 1;
+      text-align: center; }
+      .xingzuo .xing1 div img {
+        display: inline-block;
+        width: 60px;
+        margin: 5px auto; }
+  .xingzuo .on {
+    width: 100%;
+    text-align: center;
+    color: #EDB16F;
+    position: absolute;
+    bottom: 40px; }
+
+.changjing1 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+  .changjing1 .sss {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute; }
+  .changjing1 .changjing1-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing1 .changjing1-1 h1 {
+      width: 60%;
+      padding-left: 20%;
+      height: 80px;
+      padding-top: 40px; }
+      .changjing1 .changjing1-1 h1 img {
+        display: block;
+        width: 150px;
+        margin: auto; }
+    .changjing1 .changjing1-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing1 .changjing1-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+
+#btn {
+  display: block;
+  width: 100px;
+  margin-left: 40%;
+  height: 20px;
+  background: url(../img/btn.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 30px;
+  border: none;
+  z-index: 20; }
+
+.left {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: 0; }
+
+.right {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  right: 0; }
+
+.changjing2 {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing2 .ch2 {
+    width: 100%;
+    height: 100%; }
+    .changjing2 .ch2 img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing2 .bbb {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing2 .changjing2-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing2 .changjing2-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing2 .changjing2-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing2 .changjing2-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing2 .btn2 {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing2 .left2 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing2 .right2 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing3 {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing3 .ch3 {
+    width: 100%;
+    height: 100%; }
+    .changjing3 .ch3 img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing3 .ccc {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing3 .changjing3-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing3 .changjing3-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing3 .changjing3-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing3 .changjing3-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing3 .btn3 {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing3 .left3 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing3 .right3 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing4 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing4 .ch4 {
+    width: 100%;
+    height: 100%; }
+    .changjing4 .ch4 img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing4 .ddd {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing4 .changjing4-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing4 .changjing4-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing4 .changjing4-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing4 .changjing4-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing4 .btn4 {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing4 .left4 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing4 .right4 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing5 {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing5 .ch5 {
+    width: 100%;
+    height: 100%; }
+    .changjing5 .ch5 img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing5 .eee {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing5 .changjing5-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing5 .changjing5-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing5 .changjing5-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      margin: auto; }
+      .changjing5 .changjing5-1 p img {
+        display: block;
+        width: 150px;
+        margin: auto; }
+  .changjing5 .btn5 {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing5 .left5 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing5 .right5 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing2a {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg.gif) repeat; }
+  .changjing2a .ch2a {
+    width: 100%;
+    height: 100%; }
+    .changjing2a .ch2a img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing2a .c2a {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing2a .changjing2a-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing2a .changjing2a-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing2a .changjing2a-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing2a .changjing2a-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing2a .btn2a {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing2a .left2a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing2a .right2a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing2b {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg.gif) repeat; }
+  .changjing2b .ch2b {
+    width: 100%;
+    height: 100%; }
+    .changjing2b .ch2b img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing2b .c2b {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing2b .changjing2b-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing2b .changjing2b-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing2b .changjing2b-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing2b .changjing2b-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing2b .btn2b {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing2b .left2b {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing2b .right2b {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing2c {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  background: url(../img/bg.gif) repeat;
+  width: 100%; }
+  .changjing2c .ch2c {
+    width: 100%;
+    height: 100%; }
+    .changjing2c .ch2c img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing2c .c2c {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing2c .changjing2c-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing2c .changjing2c-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing2c .changjing2c-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing2c .changjing2c-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing2c .btn2c {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing2c .left2c {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing2c .right2c {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing2d {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing2d .ch2d {
+    width: 100%;
+    height: 100%; }
+    .changjing2d .ch2d img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing2d .c2d {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing2d .changjing2d-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing2d .changjing2d-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing2d .changjing2d-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing2d .changjing2d-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing2d .btn2d {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing2d .left2d {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing2d .right2d {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing3a {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing3a .ch3a {
+    width: 100%;
+    height: 100%; }
+    .changjing3a .ch3a img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing3a .c3a {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing3a .changjing3a-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing3a .changjing3a-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing3a .changjing3a-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing3a .changjing3a-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing3a .btn3a {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing3a .left3a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing3a .right3a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing3b {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing3b .ch3b {
+    width: 100%;
+    height: 100%; }
+    .changjing3b .ch3b img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing3b .c3b {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing3b .changjing3b-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing3b .changjing3b-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing3b .changjing3b-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing3b .changjing3b-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing3b .btn3b {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing3b .left3b {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing3b .right3b {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing3c {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing3c .ch3c {
+    width: 100%;
+    height: 100%; }
+    .changjing3c .ch3c img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing3c .c3c {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing3c .changjing3c-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing3c .changjing3c-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing3c .changjing3c-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing3c .changjing3c-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing3c .btn3c {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing3c .left3c {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing3c .right3c {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.changjing3d {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+  width: 100%; }
+  .changjing3d .ch3d {
+    width: 100%;
+    height: 100%; }
+    .changjing3d .ch3d img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .changjing3d .c3d {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: absolute;
+    background: #fff; }
+  .changjing3d .changjing3d-1 {
+    background: url(../img/bg.gif) repeat;
+    width: 100%;
+    height: 100%; }
+    .changjing3d .changjing3d-1 h1 {
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      color: #E87700;
+      line-height: 20px;
+      padding-top: 60px; }
+    .changjing3d .changjing3d-1 p {
+      width: 70%;
+      padding-left: 15%;
+      height: 192px;
+      position: absolute;
+      top: 50%;
+      margin-top: -96px; }
+      .changjing3d .changjing3d-1 p img {
+        display: block;
+        width: 200px;
+        margin: auto; }
+  .changjing3d .btn3d {
+    display: block;
+    width: 100px;
+    margin-left: 40%;
+    height: 20px;
+    background: url(../img/btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -90%;
+    border: none;
+    z-index: 20; }
+  .changjing3d .left3d {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    left: 0; }
+  .changjing3d .right3d {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 150%;
+    margin-top: -15px;
+    right: 0; }
+
+.jie {
+  background: url(../img/bg.gif) repeat;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .jie h1 {
+    width: 100%;
+    padding-top: 20px; }
+    .jie h1 img {
+      display: block;
+      width: 80%;
+      margin-left: 10%; }
+  .jie p {
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #E87701;
+    font-size: 10px; }
+  .jie .img1 {
+    width: 100%; }
+    .jie .img1 img {
+      display: block;
+      margin: auto;
+      width: 80%; }
+  .jie .yes {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal; }
+    .jie .yes div {
+      -webkit-box-flex: 1;
+      text-align: center; }
+    .jie .yes .begin1 {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 10px;
+      color: green; }
+    .jie .yes .show1 {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 10px;
+      color: green; }
+
+.lose {
+  background: url(../img/bg.gif) repeat;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .lose h1 {
+    width: 100%;
+    padding-top: 20px; }
+    .lose h1 img {
+      display: block;
+      width: 80%;
+      margin-left: 10%; }
+  .lose p {
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #E87701;
+    font-size: 10px; }
+  .lose .img2 {
+    width: 100%; }
+    .lose .img2 img {
+      display: block;
+      margin: auto;
+      width: 80%; }
+  .lose .yes {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal; }
+    .lose .yes div {
+      -webkit-box-flex: 1;
+      text-align: center; }
+    .lose .yes .begin2 {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 10px;
+      color: green; }
+    .lose .yes .show2 {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 10px;
+      color: green; }
+
+.social1-1 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%; }
+  .social1-1 .s1 {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+.social1-2 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%; }
+  .social1-2 .s2 {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+.social2-1 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%; }
+  .social2-1 .s3 {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+.social2-2 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%; }
+  .social2-2 .s4 {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+.social3-1 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%; }
+  .social3-1 .s5 {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+.social3-1 {
+  background: url(../img/bg.gif) repeat;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%; }
+  .social3-1 .s6 {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+.cunzai {
+  background: url(../img/bg.gif) repeat;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%; }
+  .cunzai h1 {
+    width: 90%;
+    padding-left: 5%; }
+    .cunzai h1 img {
+      display: block;
+      width: 50%;
+      margin-top: 40px;
+      margin-bottom: 30px; }
+  .cunzai .tu {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 40%; }
+  .cunzai .top {
+    width: 90%;
+    padding-left: 5%;
+    margin-bottom: 20px; }
+    .cunzai .top img {
+      width: 50%; }
+    .cunzai .top div {
+      width: 50%;
+      height: 1px;
+      background: green;
+      margin-bottom: 5px; }
+    .cunzai .top p {
+      font-size: 10px;
+      line-height: 20px;
+      color: #E77F0C; }
+      .cunzai .top p span {
+        font-size: 14px;
+        color: red; }
+  .cunzai .bottom {
+    width: 90%;
+    padding-left: 5%; }
+    .cunzai .bottom img {
+      width: 50%; }
+    .cunzai .bottom div {
+      width: 50%;
+      height: 1px;
+      background: green;
+      margin-bottom: 5px; }
+    .cunzai .bottom .hu {
+      width: 100%; }
+  .cunzai input {
+    position: absolute;
+    bottom: 30px;
+    width: 130px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 15px;
+    left: 50%;
+    margin-left: -65px; }
+
+/*# sourceMappingURL=style.css.map */
